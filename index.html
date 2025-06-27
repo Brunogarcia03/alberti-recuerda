@@ -6,7 +6,7 @@
     <script defer src="/_vercel/insights/script.js"></script>
     <link rel="stylesheet" href="/styles/styles.css" />
 
-    <title>Vercel HTML Starter</title>
+    <title>Alberti Recuerda</title>
     <meta
       name="description"
       content="High-performance HTML based website template."
@@ -81,6 +81,39 @@
           </div>
           <img src="/assets/images/img-2.jpg" alt="El banco de la plaza" />
         </div>
+      </section>
+
+      <!-- Contacto -->
+      <section id="contacto" class="contacto">
+        <h2>¿Querés compartir tu historia?</h2>
+        <p>Escribinos y sumate a la memoria colectiva de Alberti.</p>
+        <form
+          action="https://formspree.io/f/xpwrkpbr"
+          method="POST"
+          class="formulario"
+        >
+          <label>
+            Tu email o nombre (opcional):
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Escribí un título:
+            <input type="email" name="email" required />
+          </label>
+
+          <label>
+            Tu historia:
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+
+          <label>
+            Subí una imagen o video:
+            <input type="file" name="archivo" accept="image/*,video/*" />
+          </label>
+
+          <button type="submit">Enviar</button>
+        </form>
       </section>
     </main>
 
